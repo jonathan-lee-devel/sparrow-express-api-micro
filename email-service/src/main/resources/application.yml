@@ -1,2 +1,17 @@
 server:
   port: ${EMAIL_SERVICE_SERVER_PORT}
+spring:
+  data:
+    mongodb:
+      uri: ${DATABASE_URI}
+  mail:
+    host: ${EMAIL_HOST}
+    username: ${EMAIL_USERNAME}
+    password: ${EMAIL_PASSWORD}
+    port: ${EMAIL_PORT}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true

@@ -1,6 +1,5 @@
 package io.jonathanlee.emailservice
 
-import io.jonathanlee.model.auth.ApplicationUser
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
