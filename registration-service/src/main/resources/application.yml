@@ -1,0 +1,2 @@
+server:
+  port: ${REGISTRATION_SERVICE_SERVER_PORT}

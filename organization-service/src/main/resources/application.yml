@@ -1,0 +1,2 @@
+server:
+  port: ${ORGANIZATION_SERVICE_SERVER_PORT}

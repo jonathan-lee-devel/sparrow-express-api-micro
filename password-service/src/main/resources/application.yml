@@ -1,0 +1,2 @@
+server:
+  port: ${PASSWORD_SERVICE_SERVER_PORT}
